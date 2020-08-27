@@ -10,9 +10,6 @@ e14smg.data <- Read10X(data.dir = "~/CellRanger Files/E14_V3/outs/filtered_gene_
 e16smg.data <- Read10X(data.dir = "~/CellRanger Files/SalGland_E16_v2/filtered_gene_bc_matrices/mm10plus/")
 p1smg.data <- Read10X(data.dir = "~/CellRanger Files/SalGland_P1_v3/filtered_gene_bc_matrices/mm10plus/")
 
-#### THE FOLLOWING CODE IS PROVIDED AS REFERENCE FOR HOW TO ANALYZE DATA USING SEURAT V3 DEFAULT PIPELINE
-#### ORIGINAL ANALYSIS WAS PERFORMED USING SEURAT V2, WHICH IS NOW OUTDATED.
-
 #############################################################################################
 ########################## ANALYSIS OF E12 EPITHELIUM #######################################
 #############################################################################################
