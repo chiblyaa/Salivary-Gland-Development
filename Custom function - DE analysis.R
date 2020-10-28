@@ -1,11 +1,5 @@
-# This script will perform analysis associated with Figures 5-7
-# First we'll perform integratio of all datasets for visualization
-# and trajectory analysis. Then, we perform differential expression
-# analysis between specific populations and cross-reference with a 
-# database of transcription factors. Lastly, we perform correlation
-# analysis for Bhlha15 to identify genes associated with acinar lineage.
 
-## Custom function to perform differential expression analysis between populations
+## Custom function to perform differential expression analysis between multiple cell populations in a seurat object
 transition.analysis <- function(seuratobj, ident1, ident2, tfs, cols, filename, up=5, down=5, group.by="stage"){
   ## The use of this function requires the following criteria to work properly:
   ## seuratobj: annotated seurat object labeled with cell identities to compare and with metadata for 'stage'
